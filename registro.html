@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✍️ Spa de Mascotas - Registro</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body background="imagenes\flores.jpg">
+
+    <header>
+        <h1>🐾 Spa de Mascotas</h1>
+        <nav id="navPrincipal"></nav>
+    </header>
+
+    <main class="container">
+        
+        <section class="card half-card">
+            <h2>👤 Registro del Dueño</h2>
+            
+            <div class="form-group">
+                <label for="dueñoNombre">Nombre Completo:</label>
+                <input type="text" id="dueñoNombre" required>
+            </div>
+            <div class="form-group">
+                <label for="dueñoTel">Teléfono (8 dígitos):</label>
+                <input type="text" id="dueñoTel" maxlength="8" required>
+            </div>
+            <div class="form-group">
+                <label for="dueñoCorreo">Correo (Opcional):</label>
+                <input type="email" id="dueñoCorreo">
+            </div>
+
+            <button id="btnGuardarDueño" class="btn-primary">
+                Guardar Dueño
+            </button>
+        </section>
+
+
+        <section class="card half-card">
+            <h2>🐕 Registro de la Mascota</h2>
+            
+            <div class="form-group">
+                <label for="masNombre">Nombre de la Mascota:</label>
+                <input type="text" id="masNombre" required>
+            </div>
+            <div class="form-group">
+                <label for="masEspecie">Especie:</label>
+                <input type="text" id="masEspecie" required>
+            </div>
+            <div class="form-group">
+                <label for="masRaza">Raza (Opcional):</label>
+                <input type="text" id="masRaza">
+            </div>
+
+            <button id="btnGuardarMascota" class="btn-secondary">
+                Guardar Mascota
+            </button>
+        </section>
+
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

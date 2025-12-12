@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐾 Spa de Mascotas - Acceso</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body background="imagenes\s.jpg">
+    
+
+    <main class="container">
+        <section class="card" style="max-width: 400px; text-align: center;">
+            <h2>Iniciar Sesión en el Sistema</h2>
+            <p>Ingresa tus credenciales para comenzar la gestión.</p>
+            
+            <hr>
+            
+            <div class="form-group">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" placeholder="Ingresa tu usuario" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" placeholder="Ingresa tu contraseña" required>
+            </div>
+            
+            <button id="btnLogin" class="btn-primary" style="margin-top: 15px;">
+                Entrar al Sistema
+            </button>
+            
+            <p style="margin-top: 15px; font-size: 0.8em; color: #7f8c8d;">
+                * Presiona "Entrar" para comenzar.
+            </p>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

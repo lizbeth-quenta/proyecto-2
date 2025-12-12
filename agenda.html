@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📅 Spa de Mascotas - Agenda</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body background="imagenes\lils.jpg">
+
+    <header>
+        <h1>🐾 Spa de Mascotas</h1>
+        <nav id="navPrincipal"></nav>
+    </header>
+
+    <main class="container">
+        
+        <section class="card">
+            <h2>Agendar Cita de Servicio</h2>
+
+            <div class="form-group">
+                <label for="agServicio">Servicio Deseado:</label>
+                <select id="agServicio"></select>
+            </div>
+
+            <div class="form-group">
+                <label for="agMascota">Mascota a Atender (Nombre):</label>
+                 <input type="text" id="agMascota" placeholder="Ingresa el nombre de la mascota">
+            </div>
+
+            <div class="form-group">
+                <label for="agFecha">Fecha:</label>
+                <input type="date" id="agFecha">
+            </div>
+
+            <div class="form-group">
+                <label for="agHora">Hora:</label>
+                <input type="time" id="agHora">
+            </div>
+
+            <button id="btnAgendar" class="btn-primary">Agendar Cita</button>
+
+            <p style="margin-top: 20px;">* Recuerda registrar al dueño y la mascota antes de agendar servicios.</p>
+        </section>
+
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
